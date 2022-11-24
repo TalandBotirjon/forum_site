@@ -1,7 +1,10 @@
 # forum_site
  Quastion and Answer side
 
-<h2> Site documentation: </h2> 
+<h2> Site documentation: </h2> <a href="http://127.0.0.1:8000/api/swagger/" target='_blank'>127.0.0.1:8000/api/swagger/</a>
+<img src="https://user-images.githubusercontent.com/85695336/203832841-cb9e18a4-2547-4720-b103-7499e835c3c6.png" alt="Girl in a jacket" width="750" height="480">
+
+<hr>
 
 <h3>Question List and Create Page:</h3>
 
