@@ -1,16 +1,26 @@
 # forum_site
  Quastion and Answer side
 
+<h2> Site documentation: </h2> 
 
 <h3>Question List and Create Page:</h3>
 
-
-<img src="https://user-images.githubusercontent.com/85695336/203831470-8046123d-6212-4a45-82b4-d30697a65c37.png" alt="Girl in a jacket" width="750" height="500">
+<img src="https://user-images.githubusercontent.com/85695336/203831470-8046123d-6212-4a45-82b4-d30697a65c37.png" alt="Girl in a jacket" width="750" height="480">
 
 <hr>
-<h3>Contact Page </h3>
-<img src="https://user-images.githubusercontent.com/85695336/203074659-b4a31fd8-2f41-497d-a82c-4217932b81f0.png" alt="Girl in a jacket" width="750" height="500">
-<hr>
-<h3> Registration Page:</h3>
+<h3>Question Update, Delete and Destroy Page: </h3>
+<img src="https://user-images.githubusercontent.com/85695336/203831776-b4902fb9-7339-4ea4-ab78-1a01ae38a023.png" alt="Girl in a jacket" width="750" height="480">
 
-<img src="https://user-images.githubusercontent.com/85695336/203330896-93aac47e-8b75-4740-aa06-57e469db5b7a.png" alt="Girl in a jacket" width="750" height="500">
+<hr>
+
+<h3> Answers List and Create Page:</h3>
+
+<img src="https://user-images.githubusercontent.com/85695336/203832003-3a9c18da-2bf6-4062-8769-07f6622e993a.png" alt="Girl in a jacket" width="750" height="480">
+
+<hr>
+
+<h3> Answers List and Create Page:</h3>
+
+<img src="https://user-images.githubusercontent.com/85695336/203832247-bc5a180f-d530-40a0-b10b-6c1563325ae3.png" alt="Girl in a jacket" width="750" height="480">
+
+
