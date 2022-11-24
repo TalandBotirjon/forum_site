@@ -1,36 +1,40 @@
-from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveUpdateAPIView
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from .serializers import QuastionSerializer, AnswerSerializer
 from .models import Quastion, Answer
-from rest_framework import generics
 
-class QuastionListView(ListAPIView):
+
+class QuastionListView(ListCreateAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = Quastion.objects.all()
     serializer_class = QuastionSerializer
 
-class QuastionCreateView(CreateAPIView):
-    permission_classes = (IsAuthenticated,)
-    queryset = Quastion.objects.all()
-    serializer_class = QuastionSerializer
+#
+# class QuastionCreateView(CreateAPIView):
+#     permission_classes = (IsAuthenticated,)
+#     queryset = Quastion.objects.all()
+#     serializer_class = QuastionSerializer
 
-class QuastionUpdateView(RetrieveUpdateAPIView):
+
+class QuastionDetailView(RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly,)
     queryset = Quastion.objects.all()
     serializer_class = QuastionSerializer
 
 
-class AnswerListView(ListAPIView):
+class AnswerListView(ListCreateAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
 
-class AnswerCreateView(CreateAPIView):
-    permission_classes = (IsAuthenticated,)
-    queryset = Answer.objects.all()
-    serializer_class = AnswerSerializer
 
-class AnswerUpdateView(RetrieveUpdateAPIView):
+# class AnswerCreateView(CreateAPIView):
+#     permission_classes = (IsAuthenticated,)
+#     queryset = Answer.objects.all()
+#     serializer_class = AnswerSerializer
+
+
+class AnswerDetailView(RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
